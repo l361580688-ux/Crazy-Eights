@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 山东疯狂 8 点 (Crazy Eights)
 
-# Run and deploy your AI Studio app
+一款基于 React + Vite + Tailwind CSS 构建的经典扑克牌游戏。
 
-This contains everything you need to run your app locally.
+## 游戏特色
+- **经典规则**：匹配花色或点数，8 是万能牌。
+- **AI 对手**：内置智能 AI 陪玩。
+- **中文语音**：支持游戏过程中的中文语音播报。
+- **响应式设计**：完美适配手机、平板和电脑。
+- **个性化背景**：极具特色的“肥猪”主题背景。
 
-View your app in AI Studio: https://ai.studio/apps/7fe73bba-cc75-48b6-84e0-b54c7902c4e9
+## 核心规则
+1. **发牌**：每人初始 8 张牌。
+2. **出牌**：出的牌必须在“花色”或“点数”上与弃牌堆顶部的牌匹配。
+3. **万能 8 点**：数字“8”是万用牌，可以在任何时候打出，并指定新的花色。
+4. **摸牌**：无牌可出时必须摸一张牌。
+5. **胜负**：最先清空手牌的一方获胜。
 
-## Run Locally
+## 开发与部署
 
-**Prerequisites:**  Node.js
+### 本地运行
+1. 安装依赖：`npm install`
+2. 启动开发服务器：`npm run dev`
 
+### 部署到 Vercel
+本项目已配置好 `vercel.json`，直接关联 GitHub 仓库即可一键部署。
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 技术栈
+- React 19
+- Vite 6
+- Tailwind CSS 4
+- Lucide React (图标)
+- Motion (动画)
